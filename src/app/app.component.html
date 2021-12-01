@@ -1,0 +1,14 @@
+﻿<!-- nav -->
+<nav class="navbar navbar-expand navbar-light bg-light">
+    <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/" routerLinkActive="active"
+            [routerLinkActiveOptions]="{exact: true}">Home</a>
+        <a class="nav-item nav-link" routerLink="/users" routerLinkActive="active">Users</a>
+    </div>
+</nav>
+
+<!-- main app container -->
+<div class="container-fluid">
+    <alert></alert>
+    <router-outlet></router-outlet>
+</div>
