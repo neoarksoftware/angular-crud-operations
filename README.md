@@ -43,7 +43,8 @@ and/or for the production development environment._
 
 The prerequisites `(NodeJS, Angular CLI, Git, Browser etc)` must installed already on the development environment. If these prerequisites are not available yet, please install them and then proceed below mentioned Installation steps.
 
-# How to run the project steps:
+# How To Run:
+```
 1. Download or clone the project source code from https://github.com/neoarksoftware/angular-crud-operations.git,
 2. Place the project into your document root directory (Document root directory in Linux/Ubuntu is /var/www/html/).
 3. If you want to clone the project follow below steps
@@ -64,3 +65,4 @@ The prerequisites `(NodeJS, Angular CLI, Git, Browser etc)` must installed alrea
     4.5 ng serve --open
     4.6 Above command willl open the browser window http://localhost:4200
     4.7 DONE.
+  ```
